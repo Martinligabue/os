@@ -15,6 +15,15 @@ sudo apt-get install -y \
   git unzip erofs-utils cryptsetup-bin \
   systemd-boot binutils
 ```
+On Arch Linux
+
+With yay (or paru):
+
+```bash
+yay -S base-devel openssl elfutils ncurses bc bison flex wget rsync cpio \
+  xz-utils gzip bzip2 patch perl python3 git unzip cryptsetup binutils \
+  systemd erofs-utils
+```
 
 ## Build
 
